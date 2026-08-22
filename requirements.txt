@@ -1,0 +1,7 @@
+Django>=5.0
+django-htmx
+pandas
+pytest
+pytest-django
+ruff
+black
