@@ -1,5 +1,9 @@
 # Expense Ledger
 
+## Documentation & Project Notes
+* [Database Architecture](docs/ARCHITECTURE.md)
+* [Development Log](docs/LOG.md)
+
 A monolithic financial ledger and expenditure tracking web application built with **Django 5** and **HTMX**. This project processes synthetic expenditure data, automatically categorizes mock transactions via rule matching, and delivers dynamic dashboard analytics without full page reloads.
 
 > **Privacy Note:** This application operates exclusively on synthetic/mock data or manual user inputs. No real-world PII or personal financial statement data is stored or processed.
