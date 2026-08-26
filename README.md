@@ -30,11 +30,11 @@ A monolithic financial ledger and expenditure tracking web application built wit
 ## Development Roadmap
 
 - [ ] **Phase 1: Project Setup & Data Models**
-  - [ ] Initialize Django project and app structure
-  - [ ] Define `Transaction`, `Category`, and `Rule` ORM models
+  - [x] Initialize Django project and app structure
+  - [x] Define `Transaction`, `Category`, and `Rule` ORM models
   - [ ] Configure Django Admin panel for manual testing
 - [ ] **Phase 2: Synthetic Ingestion & Categorization Engine**
-  - [ ] Generate mock CSV dataset generator script (`generate_mock_data.py`)
+  - [x] Generate mock CSV dataset generator script (`generate_mock_data.py`)
   - [ ] Pandas ingestion pipeline with hash-based deduplication
   - [ ] Pattern-based auto-categorization processor
 - [ ] **Phase 3: Interactive HTMX Frontend**
