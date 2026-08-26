@@ -27,7 +27,7 @@ A monolithic financial ledger and expenditure tracking web application built wit
 | **Data Engine** | Pandas | Vectorized CSV processing and aggregation |
 | **Tooling** | Pytest, Mocking, Ruff | Unit testing, synthetic data generation, linting |
 
-## Development Roadmap
+<!-- ## Development Roadmap
 
 - [ ] **Phase 1: Project Setup & Data Models**
   - [x] Initialize Django project and app structure
@@ -43,4 +43,26 @@ A monolithic financial ledger and expenditure tracking web application built wit
   - [ ] HTMX inline category updates on transaction rows
 - [ ] **Phase 4: Analytics & Test Suite**
   - [ ] Monthly budget vs. actual spending meters
-  - [ ] Pytest test coverage for models, views, and ingestion logic
+  - [ ] Pytest test coverage for models, views, and ingestion logic -->
+
+## Development Roadmap
+
+### Phase 1: Project Setup & Data Models
+- [x] ~~**Initialize Django project (`config`) and app structure (`expenses`)**~~
+- [x] ~~**Define core ORM models (`Transaction`, `Category`)**~~
+- [ ] ⏳ **Configure Django Admin panel for manual testing**
+- [ ] ⏳ **Define auto-categorization `Rule` ORM model**
+
+### Phase 2: Synthetic Ingestion & Categorization Engine
+- [x] ~~**Generate mock CSV dataset generator script (`generate_mock_data.py`)**~~
+- [ ] ⏳ **Build Pandas ingestion pipeline with hash-based deduplication**
+- [ ] ⏳ **Implement pattern-based auto-categorization processor**
+
+### Phase 3: Interactive HTMX Frontend
+- [ ] ⏳ **Set up base dashboard layout with Tailwind CSS integration**
+- [ ] ⏳ **Build dynamic transaction list with live search and filters**
+- [ ] ⏳ **Enable HTMX inline category updates on transaction rows**
+
+### Phase 4: Analytics & Test Suite
+- [ ] ⏳ **Build monthly budget vs. actual spending meters**
+- [ ] ⏳ **Write Pytest coverage for models, views, and ingestion logic**
