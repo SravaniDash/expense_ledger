@@ -32,7 +32,7 @@ A monolithic financial ledger and expenditure tracking web application built wit
 - [ ] **Phase 1: Project Setup & Data Models**
   - [x] Initialize Django project and app structure
   - [x] Define `Transaction`, `Category`, and `Rule` ORM models
-  - [ ] Configure Django Admin panel for manual testing
+  - [x] Configure Django Admin panel for manual testing
 - [ ] **Phase 2: Synthetic Ingestion & Categorization Engine**
   - [x] Generate mock CSV dataset generator script (`generate_mock_data.py`)
   - [ ] Pandas ingestion pipeline with hash-based deduplication
