@@ -29,7 +29,7 @@ A monolithic financial ledger and expenditure tracking web application built wit
 
 ## Development Roadmap
 
-- [ ] **Phase 1: Project Setup & Data Models**
+- [x] **Phase 1: Project Setup & Data Models**
   - [x] Initialize Django project and app structure
   - [x] Define `Transaction`, `Category`, and `Rule` ORM models
   - [x] Configure Django Admin panel for manual testing
