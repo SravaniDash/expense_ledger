@@ -31,3 +31,17 @@ class Transaction(models.Model):
 
     def __str__(self):
         return f"{self.date} | {self.description}: ${self.amount}"
+    
+class Rule(models.Model):
+    pattern = models.CharField(
+        max_length=100, 
+        help_text="Keyword or pattern to match in transaction description (e.g., 'Target', 'Uber')"
+    )
+    category = models.ForeignKey(
+        Category, 
+        on_delete=models.CASCADE, 
+        related_name="rules"
+    )
+
+    def __str__(self):
+        return f"Rule: '{self.pattern}' -> {self.category.name}"
